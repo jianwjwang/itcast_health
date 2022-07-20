@@ -232,15 +232,42 @@
                 },
                 //添加
                 handleAdd () {
+                    this.$refs['dataAddForm'].validate((valid) => {
+                        if (valid) {
+                            //提交数据
+                            axios.post("/checkItem/add",this.formData).then((res) => {
+                                //无论是否请求成功，都会关闭弹窗
+                                this.dialogFormVisible = false
+                                if(res.data().flag) {
+                                    //如果请求成功，请求查询list的接口进行展示
+                                    this.findPage()
+                                    this.$message({
+                                        message:res.data.message,
+                                        type:'success'
+                                    })
+                                } else {
+                                    //如果请求失败，则弹出错误信息
+                                    this.$message.error(res.data.message)
+                                }
+                            })
+                        } else {
+                            //校验失败，弹出错误信息
+                            this.$message.error("校验失败，请检查所填数据是否有误")
+                            return false
+                        }
+                    });
                 },
                 //分页查询
                 findPage() {
                 },
                 // 重置表单
                 resetForm() {
+                    this.formData = {}
                 },
                 // 弹出添加窗口
                 handleCreate() {
+                    this.dialogFormVisible = true;
+                    this.resetForm();
                 },
                 // 弹出编辑窗口
                 handleUpdate(row) {
