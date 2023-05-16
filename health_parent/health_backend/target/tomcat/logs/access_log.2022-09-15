@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [15/Sep/2022:14:41:02 +0800] "GET /index.jsp HTTP/1.1" 200 52 http-bio-82-exec-2 449
+0:0:0:0:0:0:0:1 - - [15/Sep/2022:14:41:02 +0800] "GET /index.jsp HTTP/1.1" 200 52 http-bio-82-exec-1 448
+0:0:0:0:0:0:0:1 - - [15/Sep/2022:14:41:02 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-82-exec-3 1
+0:0:0:0:0:0:0:1 - - [15/Sep/2022:14:42:36 +0800] "GET /checkitem/getStudent HTTP/1.1" 404 991 http-bio-82-exec-1 32
+0:0:0:0:0:0:0:1 - - [15/Sep/2022:14:42:49 +0800] "GET /checkitem/getStudent HTTP/1.1" 404 991 http-bio-82-exec-3 2
+0:0:0:0:0:0:0:1 - - [15/Sep/2022:14:43:10 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-4 71

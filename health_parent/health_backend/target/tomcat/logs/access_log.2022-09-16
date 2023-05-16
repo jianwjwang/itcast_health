@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:03 +0800] "GET /index.jsp HTTP/1.1" 200 52 http-bio-82-exec-6 694
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:15 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-7 171
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:55 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-9 5
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:56 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-10 5
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:56 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-10 4
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:56 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-10 3
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:56 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-10 4
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:57 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-10 2
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:57 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-10 3
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:26:57 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 113 http-bio-82-exec-10 172
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:31:31 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 87 http-bio-82-exec-1 73
+0:0:0:0:0:0:0:1 - - [16/Sep/2022:11:31:50 +0800] "GET /checkitem/getStudent.do HTTP/1.1" 200 87 http-bio-82-exec-3 4
